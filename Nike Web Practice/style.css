@@ -1,0 +1,208 @@
+ body {
+     margin: 0;
+     padding: 0;
+     /*  background-color: lightgrey; */
+ }
+
+ header {
+     display: flex;
+     width: 100vw;
+     height: 1em;
+     padding: 2%;
+     background-color: white;
+     position: fixed;
+     top: 0px;
+     z-index: 1000;
+ }
+
+ nav {
+     flex: 1;
+     width: 100vw;
+ }
+
+ .logo img {
+     height: 50px;
+ }
+
+ ul {
+     list-style: none;
+     margin: 0;
+     padding: 0;
+     padding-right: 150px;
+     font-family: 'Nunito Sans', sans-serif;
+     float: right;
+ }
+
+ nav ul li {
+     display: inline-block;
+ }
+
+ a {
+     display: inline-block;
+     text-decoration: none;
+     margin: 1em;
+     color: black;
+ }
+
+ li a:hover {
+     font-weight: bold;
+ }
+
+ .container {
+     width: 100%;
+     height: 100vh;
+     /* height: 100vh; */
+     background-image: url('shoebg.jpg');
+     background-attachment: fixed;
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+     margin: 0;
+ }
+
+ .container-box {
+     padding-top: 20%;
+ }
+
+ h1 {
+     font-family: 'Nunito Sans', sans-serif;
+     font-weight: 900;
+     font-size: 5rem;
+     padding-left: 50px;
+     padding-top: 50px;
+     margin: 0;
+ }
+
+ p {
+     font-family: 'Nunito Sans', sans-serif;
+     padding-left: 65px;
+     font-weight: bold;
+     text-align: left;
+     margin-top: 0;
+ }
+
+ button {
+     text-decoration: none;
+     border: none;
+     display: inline-block;
+     background-color: white;
+     font-size: 1rem;
+     text-align: center;
+     padding: 15px 32px;
+     border-radius: 50px;
+     width: 15%;
+ }
+
+ button:hover {
+     font-weight: bold;
+     border: 2px solid black;
+
+ }
+
+ .btn {
+     margin-left: 50px;
+ }
+
+ .img-grid {
+     box-sizing: border-box;
+ }
+
+ .row {
+     display: flex;
+ }
+
+ .column {
+     flex: 33.33%;
+     float: left;
+ }
+
+ .column:hover {
+     opacity: 50%;
+ }
+
+ h2 {
+     font-family: 'Nunito Sans', sans-serif;
+     padding-left: 20px;
+ }
+
+ .img-grid2 {
+     box-sizing: border-box;
+ }
+
+ .row2 {
+     display: flex;
+ }
+
+ .column2 {
+     flex: 50%;
+     /* float: left; */
+     display: inline-block;
+     position: relative;
+ }
+
+ .column2 a {
+     position: absolute;
+     bottom: 5px;
+     left: 5px;
+     z-index: 10;
+     font-family: 'Nunito Sans', sans-serif;
+     font-weight: bold;
+     color: black;
+     background-color: white;
+     padding: .9em;
+     border-radius: 10%;
+ }
+
+ .column2:hover {
+     opacity: 50%;
+ }
+
+ .img-grid3 {
+     box-sizing: border-box;
+ }
+
+ .row3 {
+     display: flex;
+ }
+
+ .column3 p {
+     text-align: center;
+     padding: 0;
+
+ }
+
+ .column3 {
+     flex: 50%;
+     display: inline-block;
+     position: relative;
+ }
+
+ .column3:hover {
+     opacity: 50%;
+ }
+
+ footer {
+    display: inline-flex;
+    width: 100vw;
+    margin: 0;
+    background-color: lightgrey;
+ }
+
+ .ft-container {
+    float: left;
+    width: 100%;
+ }
+
+.ft-lnk {
+    float: left;
+    margin-left: 80px;
+    padding: 0;
+    display: inline;
+}
+
+ .footer-link {
+     margin: 0px;
+/*      float: left; */
+ }
+
+ 
